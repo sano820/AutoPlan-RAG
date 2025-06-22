@@ -1,0 +1,32 @@
+``gitignore
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.tox/
+.venv/
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Environment variables - THIS IS CRITICAL!
+.env
+
+# Data files (generated, large, or sensitive)
+data/faiss_index/
+data/processed/
+*.pkl
+*.bin
+*.csv.cache # .csv 캐시 파일 (pandas 등이 생성할 수 있음)
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb # Jupyter Notebook 파일 (선택 사항, 버전 관리할 수도 있음)
+
+# Operating System files
+.DS_Store
+Thumbs.db

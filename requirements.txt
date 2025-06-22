@@ -1,0 +1,7 @@
+langchain==0.1.19
+langchain-google-genai==0.0.9
+faiss-cpu==1.7.4
+sentence-transformers==2.7.0
+python-dotenv==1.0.1
+pandas==2.2.2
+# 필요한 경우 유전 알고리즘 라이브러리 추가
